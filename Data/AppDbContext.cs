@@ -39,6 +39,14 @@ namespace AabeDfwApiV2.Data
             .HasOne(payment => payment.Signup)
             .WithMany()
             .HasForeignKey(payment => payment.SignupId);
+
+            modelBuilder.Entity<Event>()
+            .Property(eventItem => eventItem.Price)
+            .HasPrecision(10, 2);
+
+            modelBuilder.Entity<Payment>()
+            .Property(payment => payment.Amount)
+            .HasPrecision(10, 2);
         }
     }
 }
