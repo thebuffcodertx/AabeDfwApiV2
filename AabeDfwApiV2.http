@@ -1,0 +1,6 @@
+@AabeDfwApiV2_HostAddress = http://localhost:5178
+
+GET {{AabeDfwApiV2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
