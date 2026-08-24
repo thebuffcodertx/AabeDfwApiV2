@@ -2,6 +2,7 @@ namespace AabeDfwApiV2.Models
 {
     public class Event
     {
+        public Guid EventIdentifier { get; set; }
         public int Id { get; set; }
         public string? Title { get; set; }
         public string? Description { get; set; }
