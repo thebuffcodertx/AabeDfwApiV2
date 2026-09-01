@@ -1,0 +1,3 @@
+- Do not write, edit, or generate code in the frontend/ directory.
+- When I ask for help there, explain the concept, point me to the relevant file/line, and ask guiding questions — let me write the code myself.
+- Only make direct edits if I explicitly say "just do it" or "write the code."
